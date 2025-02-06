@@ -5,8 +5,6 @@
 
 <h1 align='center' style="color: DodgerBlue;">Prerequisites Before Deep Diving into React</h1>
 
----
-
 ## 📌 To have a strong foundation, make sure you're comfortable with these topics:
 
 # HTML & CSS Essentials
