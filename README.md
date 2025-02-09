@@ -10,6 +10,12 @@
 # HTML & CSS Essentials
 
 - ✅ Semantic HTML.
+  - Helps search engines and screen readers understand content better.
+  <div slign="center">
+    <img src="Meta/semantic.png" alt="semantic" width="400" />
+
+    ![Alt_text](Meta/semantic.png)
+  </div>
 - ✅ CSS Fundamentals: Selectors, flexbox, grid.
 - ✅ Responsive Design (Media Queries).
 - ✅ CSS Modules & TailwindCSS (Optional).
