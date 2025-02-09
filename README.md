@@ -13,9 +13,23 @@
   - Helps search engines and screen readers understand content better.
   <div align="center">
     <img src="Meta/semantic.png" alt="semantic" width="400" />
-
   </div>
 - ✅ CSS Fundamentals: Selectors, flexbox, grid.
+  - Flexbox: Used for one-dimensional layouts (row/column).
+  ```bash
+    .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+  ```
+  - CSS Grid: Used for two-dimensional layouts.
+  ```bash
+    .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    }
+  ```
 - ✅ Responsive Design (Media Queries).
 - ✅ CSS Modules & TailwindCSS (Optional).
 
