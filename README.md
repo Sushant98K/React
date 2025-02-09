@@ -30,7 +30,7 @@
     grid-template-columns: repeat(3, 1fr);
     }
   ```
-- ✅ Responsive Design (Media Queries).  
+- ✅ Responsive Design (Media Queries).
 - ✅ CSS Modules & TailwindCSS (Optional).
 
 # JavaScript Fundamentals (Must-Know Concepts)
