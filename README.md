@@ -11,10 +11,9 @@
 
 - ✅ Semantic HTML.
   - Helps search engines and screen readers understand content better.
-  <div slign="center">
+  <div align="center">
     <img src="Meta/semantic.png" alt="semantic" width="400" />
 
-    ![Alt_text](Meta/semantic.png)
   </div>
 - ✅ CSS Fundamentals: Selectors, flexbox, grid.
 - ✅ Responsive Design (Media Queries).
