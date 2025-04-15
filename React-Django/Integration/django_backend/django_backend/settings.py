@@ -43,6 +43,7 @@ INSTALLED_APPS = [
 
 EXTERNAL_APPS = [
     'food',
+    'drinks',
 ]
 
 INSTALLED_APPS += EXTERNAL_APPS

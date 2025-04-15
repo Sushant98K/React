@@ -7,6 +7,7 @@ export const fetchDataFromAPI = async (endpointPath) => {
     const endpoint = `${baseURL}${endpointPath}`
     try {
         const response = await axios.get(endpoint)
+        // console.log(response);
         return response.data
     } catch (error) {
         console.error('Error Fetching Data ', error);
