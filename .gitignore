@@ -1,0 +1,100 @@
+# ==========================
+# Python / Django
+# ==========================
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django migrations
+**/migrations/
+!*/migrations/__init__.py
+
+# Python virtual environment
+env/
+.env.*
+
+# SQLite database
+*.sqlite3
+
+# VS Code settings
+.vscode/
+
+# macOS
+.DS_Store
+
+# Pytest
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox/
+.nox/
+
+# MyPy, Pyright
+.mypy_cache/
+.pyright/
+
+# Pipenv, Poetry
+Pipfile.lock
+poetry.lock
+
+# Django static files
+staticfiles/
+media/
+
+# ==========================
+# Node / React (Vite)
+# ==========================
+
+# Node modules
+**/node_modules/
+
+# Vite dist build
+**/dist/
+
+# dotenv files (if any)
+frontend/.env
+frontend/.env.*
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Cache
+.cache/
+.vite/
+*.log
+
+# Build artifacts
+*.tsbuildinfo
+
+# ==========================
+# General
+# ==========================
+
+# IDEs
+.idea/
+*.swp
+*.swo
+*.swn
+*.bak
+
+# Backup and temp files
+*.tmp
+*.temp
+*.bak
+*.old
+*.orig
+
+# Test/coverage reports
+coverage/
+junitxml/
+
+# Optional: ignore media/uploads if auto-generated
+media/
+uploads/
