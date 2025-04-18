@@ -27,3 +27,25 @@ export const createDataToAPI = async (endpointPath, payload) => {
         return null        
     }
 }
+
+export const updateDataToAPI = async (url, updatedData) => {
+    console.log(`updating data to : ${url}`);
+    try {
+        const response = await axios.put(url, updatedData)
+        return response.data
+    } catch (error) {
+        console.error('Error to update data: ', error);
+        throw error        
+    }
+}
+
+export const deleteDataFromAPI = async (url) => {
+    console.log(`Deleted Data From: ${url}`);
+    try {
+        await axios.delete(url)
+        return true
+    } catch (error) {
+        console.error('Error Deleing Data: ', error);
+        return false
+    }
+}

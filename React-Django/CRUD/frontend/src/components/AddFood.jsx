@@ -31,7 +31,7 @@ const AddFood = ({onFoodAdded, onCancel}) => {
         <input type="text" name="foodName" placeholder="food name" value={newFood.foodName} onChange={handleChange} /><br />
         <input type="text" name='foodType' placeholder='food type' value={newFood.foodType} onChange={handleChange} /><br />
         <input type="text" name='foodCategory' placeholder='food category' value={newFood.foodCategory} onChange={handleChange} /><br />
-        <input type="text" name='foodPrice' placeholder='food price' value={newFood.foodPrice} onChange={handleChange} /><br />
+        <input type="number" name='foodPrice' placeholder='food price' value={newFood.foodPrice} onChange={handleChange} /><br />
         
         <button type="submit">Add Food</button>
         <button type='button' onClick={onCancel}>Cancel</button>
